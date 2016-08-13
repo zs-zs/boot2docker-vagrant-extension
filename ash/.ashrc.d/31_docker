@@ -100,7 +100,6 @@ dk_toolbox(){
 
     # Extension management
     if [[ "$1" == "extension" ]]; then
-        echo "dk_toolbox: 0: $0, 1: $1, 2: $2"
         dk_toolbox_extension "$2"
         return
     fi
@@ -129,7 +128,6 @@ dk_toolbox(){
 
 # Extension management for toolbox
 dk_toolbox_extension(){
-    echo "dk_toolbox_extension: 0: $0, 1: $1, 2: $2"
     case "$1" in
         on) export DKTB_EXTENSION_STATUS="ON"
             ;;
