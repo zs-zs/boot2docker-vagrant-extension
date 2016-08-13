@@ -133,7 +133,7 @@ dk_toolbox_extension(){
             ;;
         off) export DKTB_EXTENSION_STATUS="OFF"
             ;;
-        *) echo "DKTB_EXTENSION_STATUS=$DKTB_EXTENSION_STATUS"
+        *) echo "$1: DKTB_EXTENSION_STATUS=$DKTB_EXTENSION_STATUS"
             ;;
     esac
 }
