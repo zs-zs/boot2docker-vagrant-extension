@@ -194,9 +194,9 @@ dk(){
         return 0
     fi
     case "$1" in
-        toolbox) dk_toolbox "$2"
+        toolbox) dk_toolbox "$2" "$3"
             ;;
-        tb) dk_toolbox "$2"
+        tb) dk_toolbox "$2" "$3"
             ;;
         proxy) dk_proxy
             ;;
